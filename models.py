@@ -19,7 +19,7 @@ Base = declarative_base(bind=engine)
 
 
 class Advertisements(Base):
-    __tablename__ = 'ads'
+    __tablename__ = "ads"
     id = Column(Integer, primary_key=True)
     title = Column(String, nullable=False)
     description = Column(String, nullable=False)
